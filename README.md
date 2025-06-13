@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Clínica Odonto
 
 ## Visão Geral
@@ -135,3 +136,4 @@ Em caso de dúvidas ou problemas:
 ## Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+=======
