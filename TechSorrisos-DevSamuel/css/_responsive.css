@@ -1,0 +1,153 @@
+/* ===========================
+   Responsividade Global
+   =========================== */
+
+/* Tablets e dispositivos menores */
+@media (max-width: 992px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .profile-btn.desktop-only {
+    display: block;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .home-hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .home-hero-content {
+    max-width: 100%;
+  }
+
+  .home-hero-title {
+    font-size: 32px;
+  }
+}
+
+/* Smartphones */
+@media (max-width: 768px) {
+  .form-container {
+      padding: 20px;
+  }
+  
+  .dashboard-content {
+      grid-template-columns: 1fr;
+  }
+  
+  .dashboard header {
+      flex-direction: column;
+      text-align: center;
+  }
+  
+  .dashboard .user-info {
+      margin-top: 15px;
+  }
+
+  .sobre-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sobre-text {
+    order: 2;
+  }
+
+  .sobre-img {
+    order: 1;
+  }
+
+  .sobre-img img {
+    max-width: 100%;
+  }
+
+  .sobre-text h3 {
+    font-size: 2em;
+  }
+
+  .profile-btn.desktop-only {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+
+  .especialidades-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .especialidade-card {
+    margin: 0 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .especialidade-icon {
+    margin-bottom: 15px;
+  }
+
+  .especialidades-title {
+    font-size: 2em;
+  }
+
+  .especialidades-subtitle {
+    font-size: 1em;
+    padding: 0 20px;
+  }
+
+  .card-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .saiba-mais-btn,
+  .agendar-btn {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+/* Mobile pequeno */
+@media (max-width: 576px) {
+  .main-header {
+    padding: 15px 4%;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .logo img {
+    height: 30px;
+  }
+
+  .home-hero {
+    padding: 30px 4%;
+  }
+
+  .home-hero-title {
+    font-size: 28px;
+  }
+}
+
+/* Smartphones pequenos */
+@media (max-width: 360px) {
+  .especialidade-card {
+    padding: 15px;
+  }
+
+  .saiba-mais-btn,
+  .agendar-btn {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: 32px;
+  }
+}
